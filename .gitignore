@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local credentials and OS/Jupyter noise
+.env
+kaggle.json
+credentials.json
+.DS_Store
+.ipynb_checkpoints/
+
+# Data
+data/**
+!data/*/
+!data/**/.gitkeep
+
+# AGENTS
+docs/
+.superpowers/

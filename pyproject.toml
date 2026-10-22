@@ -1,0 +1,26 @@
+[project]
+name = "kaggle-creditscore-alfa"
+version = "0.1.0"
+description = "Кредитный скоринг: окружение проекта"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "1paulpo1", email = "107771206+1paulpo1@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "kaggle",
+    "matplotlib",
+    "numpy",
+    "openpyxl>=3.1.5",
+    "pandas",
+    "pyarrow>=26.0.0",
+    "scikit-learn",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+    "jupyterlab",
+    "lightgbm>=4.5",
+]
